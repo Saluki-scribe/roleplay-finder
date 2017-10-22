@@ -65,7 +65,7 @@ app.get("/", function(req, res) {
 });
 
 
-// A GET route for scraping the echojs website
+// A GET route for scraping the roleplay forum website
 app.get("/scrape", function(req, res) {
     // First, we grab the body of the html with request
     axios.get("https://www.rpnation.com/forums/fantasy.12/").then(function(response) {
@@ -103,7 +103,6 @@ app.get("/scrape", function(req, res) {
       });
     });
   });
-
 
 
 
