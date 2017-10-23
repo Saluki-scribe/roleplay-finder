@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-image: url("../img/bookshelf.jpg");
 }
 
 h1 {
@@ -12,9 +12,10 @@ h1 {
 
 #title-div {
     background-image: url("../img/background.jpg");
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-size: cover;
+    border-bottom: 55px solid black;
     /*background-repeat: no-repeat;*/
 }
 
@@ -23,6 +24,8 @@ h1 {
 }
 
 .main-row {
-    background-color: lightgray;
+    background-color: rgb(224, 213, 176);
     margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
 }
