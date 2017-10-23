@@ -1,3 +1,15 @@
-<div>
-    <h1>HEY! LISTEN!</h1>
+<div class="container">
+    {{#each roleplay}}
+    <div class="row main-row">
+        <div class="col">
+ <div class="row">
+        <p class="title"><b>Title:</b> {{this.title}}</p>
+        </div>
+        <div class="row">
+        <b>Link:</b><p class="link"> https://www.rpnation.com/{{this.link}}</p>
+        </div>
+        </div>
+       
+    </div>
+    {{/each}}
 </div>
