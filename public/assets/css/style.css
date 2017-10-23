@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 50px;
+}
+
+#title-div {
+    background-image: url("../img/background.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+
+.link {
+    color: blue;
+}
+
+.main-row {
+    background-color: lightgray;
+    margin: 5px;
+}
