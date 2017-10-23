@@ -45,7 +45,15 @@ app.set("view engine", "handlebars");
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://saluki_scribe:Shadow898@ds125565.mlab.com:25565/heroku_g0nxkmcv");
+
+if (process.env.MONGODB_URI) {
+  mongoose.connect(process.env.MONGODB_URI)
+} else {
+  mongoose.connect("mongodb://saluki_scribe:Shadow898@ds125565.mlab.com:25565/heroku_g0nxkmcv", {
+    useMongoClient: true
+  });
+}
+
 
 //=========================
 //---------ROUTES----------
