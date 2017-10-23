@@ -1,5 +1,4 @@
 <div class="container">
-    
     <div class="row" id="nav">
         <div class="col-1">
             <p><a href="/">Home</a></p>
@@ -8,7 +7,7 @@
            <p><a href="/saved">Saved Roleplays</a></p>
         </div>
         <div class="col-1">
-           <a href="/scrape"><button class="btn btn-info">Scrape Roleplays!</button></a>
+            <a href="/scrape"><button class="btn btn-info">Scrape Roleplays!</button></a>
         </div>
     </div>
 
@@ -17,13 +16,14 @@
         <div class="col">
         <div class="row">
 
-            <div class="col-11">
+             <div class="col-10">
                 <h3 class="title">{{this.title}}</h3>
             </div>
-            <div class="col-1">
-                <button class="btn btn-success">Save</button>
+            <div class="col-2">
+                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-info">Notes</button>
             </div>
-            
+
         </div>
         <div class="row">
             <p class="link">https://www.rpnation.com/{{this.link}}</p>

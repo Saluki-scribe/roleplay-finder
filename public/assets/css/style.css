@@ -15,8 +15,15 @@ h1 {
     height: 350px;
     width: 100%;
     background-size: cover;
-    border-bottom: 55px solid black;
+    /*border-bottom: 55px solid black;*/
     /*background-repeat: no-repeat;*/
+}
+
+#nav {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin: 0px -85px;
 }
 
 .link {
@@ -25,7 +32,8 @@ h1 {
 
 .main-row {
     background-color: rgb(224, 213, 176);
-    margin: 5px;
+    margin: 10px 5px;
     border-radius: 5px;
     padding: 5px;
+    padding-top: 10px;
 }
